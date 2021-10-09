@@ -1,0 +1,52 @@
+Bug:
+Sửa lỗi các link cho chuẩn
+Làm các trang:
+  1. 404
+  2. about
+  3. documentation
+  4. single post
+
+
+
+
+
+
+
+
+
+
+============================================================================================
+1.
+  .title p {
+    color: #848484;
+    width: 50%;
+    margin: 0 auto;
+  }
+=> CSS p trong tiêu đề
+
+2.
+  .border {
+    margin: 20px auto 20px;
+    width: 80px;
+    height: 2px;
+  }
+=> Gạch dưới tiêu đề
+
+3. text-indent: di chuyển text trong element sang trái (số âm) hoặc phải (số dương)
+
+4. Specificity: INLINE(1000) => id(100) => CLASS, ATTRIBUTE VÀ pseudo-classes(10) => ELEMENT & PSEUDO ELEMENT(1)
+
+  background: #28abe3 none repeat scroll 0 0; => Xem laij
+  
+    display:-webkit-box;
+    -webkit-line-clamp:1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    word-break: break-word;
+
+5. Xem lại thuộc tính của mấy cái thẻ flexbox
+6.         <div class="col-sm-3 col-md-3 col-lg-3">
+7. Xem lại thuộc tính nth-child
+8.  /* background: linear-gradient(to bottom, #28ABE3 50%, #fff 50%); */: ko hỗ trợ trên operamini
+

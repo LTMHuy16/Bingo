@@ -1,0 +1,233 @@
+/* ====== Hero Slider
+============================ */
+.hero-slider {
+  overflow: hidden;
+}
+
+.slider-item {
+  position: relative;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.slider-item .container {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.slider-item::before {
+  position: absolute;
+  content: "";
+  height: 100%;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  left: 0;
+  top: 0;
+}
+
+.hero-area {
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  height: 100vh;
+}
+
+.slick-arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 9;
+  width: 70px;
+  height: 70px;
+  background-color: rgba(40, 171, 227, 0.5);
+  color: #fff;
+  border: none;
+  outline: none !important;
+  border-radius: 50%;
+  font-size: 35px;
+  line-height: 2;
+  transition: 0.2s ease;
+}
+
+.slick-arrow::before {
+  position: absolute;
+  content: '';
+  width: 10px;
+  height: 10px;
+  background: transparent;
+  top: 50%;
+  transform: translateY(-50%) rotate(-45deg);
+  transition: 0.2s ease;
+}
+
+.slick-arrow::after {
+  position: absolute;
+  content: '';
+  height: 2px;
+  width: 25px;
+  top: 50%;
+  transform: translateY(-50%);
+  background: #fff;
+  transition: 0.2s ease;
+}
+
+.slick-arrow:hover {
+  background: #28ABE3;
+}
+
+
+.hero-slider .prevArrow {
+  left: -100px;
+}
+
+.hero-slider .prevArrow::before {
+  border-top: 2px solid #fff;
+  border-left: 2px solid #fff;
+  right: 35px;
+}
+
+.hero-slider .prevArrow::after {
+  left: 25px;
+}
+
+.hero-slider:hover .prevArrow {
+  left: 20px;
+}
+
+.hero-slider .nextArrow {
+  right: -100px;
+}
+
+.hero-slider:hover .nextArrow {
+  right: 20px;
+} 
+
+.hero-slider .nextArrow::before {
+  border-bottom: 2px solid #fff;
+  border-right: 2px solid #fff;
+  left: 35px;
+}
+
+.hero-slider .nextArrow::after {
+  right: 25px;
+}
+
+.hero-area h1 {
+  margin: 50px 0 20px;
+  color: #fff;
+  font-size: 60px;
+  line-height: 1.1;
+  letter-spacing: 2px;
+  font-weight: 700;
+}
+
+.hero-area p {
+  color: #fff;
+  padding: 20px 20%;
+}
+
+/* ========================
+  Hero area
+============================ */
+.hero-area {
+  position: relative;
+}
+.hero-area::before {
+  position: absolute;
+  content: '';
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.hero-area .block {
+  margin-top: 50px;
+}
+
+.hero-area .block p {
+  padding: 20px 0;
+  width: 50%;
+}
+
+.hero-area .list-inline .list-inline-item:first-child {
+  margin-bottom: 10px;
+}
+
+/* ====== Responsive
+============================ */
+@media screen and (max-width: 991px) {
+  .hero-area h1 {
+    font-size: 50px;
+  }
+
+  .hero-area p {
+    padding: 20px 10%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .slider-item h1 {
+    font-size: 50px;
+  }
+
+  .hero-area p {
+    margin: 20px 10%;
+  }
+
+  .slick-arrow {
+    width: 50px;
+    height: 50px;
+  }
+
+  .hero-slider .prevArrow::before {
+    right: 25px;
+  }
+
+  .hero-slider .prevArrow::after {
+    left: 15px;
+  }
+
+  .hero-slider .nextArrow::before {
+    left: 25px;
+  }
+
+  .hero-slider .nextArrow::after {
+    right: 15px;
+  }
+
+    /* hero-area */
+    .hero-area .block p {
+      padding: 20px 30px;
+      width: 100%;
+    }
+}
+
+@media screen and (max-width: 575px) {
+  .hero-area h1 {
+    font-size: 30px;
+  }
+
+  .hero-area p {
+    margin: 20px 10px 35px;
+  }
+}
+
+@media screen and (max-width: 374px) {
+  .hero-area h1 {
+    font-size: 30px;
+  }
+
+  .hero-area p {
+    margin: 20px 10px 35px;
+  }
+
+  .hero-area .block p {
+    padding: 10px 15px;
+  }
+}

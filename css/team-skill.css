@@ -1,0 +1,22 @@
+.team-skills .progress-block {
+  margin-top: 40px;
+}
+
+.team-skills .progress-block span {
+  display: inline-block;
+  margin-bottom: 5px;
+  font-size: 14px;
+}
+
+
+.team-skills .progress-block .progress {
+  height: 10px;
+}
+
+.team-skills .progress-block .progress .progress-bar {
+  background-color: #28ABE3;
+}
+
+.team-skills .client-logo-slider {
+  margin-top: 50px;
+}

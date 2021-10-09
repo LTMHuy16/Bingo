@@ -1,0 +1,29 @@
+/* ====== Call To Action
+============================ */
+.call-to-action {
+  background: url(../images/call-to-action/call-to-action-bg-2.jpg);
+  background-size: cover;
+  color: #fff;
+}
+
+/* ====== Responsive
+============================ */
+@media screen and (max-width: 575px) {
+  .call-to-action h2 {
+    font-size: 30px;
+  }
+
+  .call-to-action p {
+    margin: 10px 10px 15px;
+  }
+}
+
+@media screen and (max-width: 374px) {
+  .call-to-action h2 {
+    font-size: 30px;
+  }
+
+  .call-to-action p {
+    margin: 10px 10px 15px;
+  }
+}

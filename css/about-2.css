@@ -1,0 +1,52 @@
+.about-2 {
+  background: #F7F7F7;
+}
+
+.about-2 .checklist {
+  padding-left: 30px;
+}
+
+.about-2 .checklist li {
+  position: relative;
+  margin-bottom: 15px;
+  font-size: 16px;
+  color: #777;
+  font-family: "Source Sans Pro", sans-serif;
+}
+.about-2 .checklist li::before {
+  position: absolute;
+  content: "\f375";
+  margin-right: 12px;
+  margin-left: -45px;
+  padding: 2px 8px;
+  border-radius: 50%;
+  font-size: 20px;
+}
+
+@media screen and (max-width: 767px) {
+  .about-2 .checklist li::before {
+    margin-left: -35px;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .about-2 .checklist {
+    padding-left: 20px;
+    list-style: disc;
+  }
+
+  .about-2 .checklist li::before {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 374px) {
+  .about-2 .checklist {
+    padding-left: 20px;
+    list-style: disc;
+  }
+
+  .about-2 .checklist li::before {
+    display: none;
+  }
+}

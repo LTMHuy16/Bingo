@@ -1,0 +1,79 @@
+/* ====== Counter Section
+============================ */
+.counters-item {
+  position: relative;
+  padding-bottom: 30px;
+  color: #444;
+}
+
+.counters-item::before {
+  position: absolute;
+  content: "";
+  top: 50%;
+  transform: translateY(-50%);
+  right: 15px;
+  width: 1px;
+  height: 50px;
+  background: #e5e5e5;
+}
+
+.counters-item i {
+  display: inline-block;
+  font-size: 40px;
+  color: #28abe3;
+}
+
+.counters-item > div {
+  margin: 6px 0;
+}
+
+.counters-item span {
+  display: block;
+  font-size: 35px;
+  font-weight: 600;
+  line-height: 1.4;
+}
+
+.counters-item h3 {
+  margin: 0;
+  font-size: 18px;
+  color: #666;
+}
+
+/* ====== Responsive
+============================ */
+@media screen and (max-width: 991px) {
+  .counters-item::before {
+    display: none;
+  }
+  
+  .counters-item span {
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .counters-item span {
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .counters-item::before {
+    display: none;
+  }
+
+  .counters-item span {
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 374px) {
+  .counters-item::before {
+    display: none;
+  }
+
+  .counters-item span {
+    font-size: 30px;
+  }
+}

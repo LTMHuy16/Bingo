@@ -1,0 +1,26 @@
+.portfolio-filter {
+  margin: 0 auto 40px;
+  text-align: center;
+}
+
+.portfolio-filter button {
+  display: inline-block;
+  font-size: 14px;
+  padding: 8px 20px;
+  text-transform: uppercase;
+  background: #28ABE3;
+  color: #fff;
+  border: none;
+}
+
+.portfolio-filter button:focus {
+  outline: none;
+}
+
+.portfolio-filter button:hover {
+  background: #00b3ff;
+}
+
+.portfolio-block {
+  margin-bottom: 40px;
+}

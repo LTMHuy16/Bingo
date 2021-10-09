@@ -1,0 +1,203 @@
+@import url("https://fonts.googleapis.com/css?family=Catamaran:400,500,600,700,700|Source+Sans+Pro:400,600");
+body {
+  line-height: 1.4;
+  font-family: "Source Sans Pro", sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+p {
+  font-family: "Source Sans Pro", sans-serif;
+  color: #848484;
+  font-size: 16px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Catamaran", sans-serif;
+  font-weight: 600;
+}
+
+.no-padding {
+  padding: 0 !important;
+}
+
+.inline-block {
+  display: inline-block;
+}
+
+ol, ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+figure {
+  margin: 0;
+}
+
+a {
+  transition: all .3s ease-in 0s;
+}
+
+iframe {
+  border: 0;
+}
+
+a, a:focus, a:hover {
+  text-decoration: none;
+  outline: 0;
+}
+
+a:focus, a:hover {
+  color: #17a8e6;
+}
+
+.btn-main {
+  background: #28ABE3;
+  border: 1px solid #28ABE3;
+  color: #fff;
+  display: inline-block;
+  font-size: 14px;
+  letter-spacing: 1px;
+  padding: 12px 40px;
+  text-transform: uppercase;
+  border-radius: 40px;
+}
+
+.btn-main:hover {
+  background: #1799cc;
+  color: #fff;
+}
+
+.btn-transparent {
+  color: #fff;
+  border: 1px solid #fff;
+  display: inline-block;
+  font-size: 13px;
+  letter-spacing: 1px;
+  padding: 14px 35px;
+  text-transform: uppercase;
+  border-radius: 40px;
+}
+
+.btn-transparent:hover {
+  color: #fff;
+}
+
+.mt-10 {
+  margin-top: 10px;
+}
+
+.mt-20 {
+  margin-top: 20px;
+}
+
+.mt-30 {
+  margin-top: 30px;
+}
+
+.mt-40 {
+  margin-top: 40px;
+}
+
+.mt-50 {
+  margin-top: 50px;
+}
+
+.section {
+  padding: 100px 0;
+}
+
+.section-sm {
+  padding: 70px 0;
+}
+
+.section-xs {
+  padding: 40px 0;
+}
+
+.btn:focus {
+  color: #ddd;
+}
+
+.title {
+  padding-bottom: 50px;
+  overflow: hidden;
+}
+
+.title h2 {
+  font-weight: 600;
+  font-size: 35px;
+  color: #232323;
+}
+
+.title.title-white h2,
+.title.title-white p,
+.title.title-white .border {
+  color: #fff;
+}
+
+.title p {
+  color: #848484;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.border {
+  margin: 20px auto 20px;
+  width: 80px;
+  height: 2px;
+}
+
+/* ====================
+  Responsive
+================== */
+
+@media screen and (min-width: 1024px) {
+
+}
+
+@media screen and (min-width: 992px) and (max-width: 1023px) {
+
+}
+
+@media screen and (max-width: 991px) {
+  .title p {
+    width: 60%;
+  }
+}
+
+
+@media screen and (max-width: 767px) {
+  .title p {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .title h2 {
+    font-size: 28px;
+  }
+
+  .title p {
+    width: 100%;
+  }
+}
+
+
+@media screen and (max-width: 374px) {
+  .title h2 {
+    font-size: 28px;
+  }
+
+  .title p {
+    width: 100%;
+  }
+}
+
+
+
+
+
+
+
+

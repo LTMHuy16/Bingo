@@ -1,0 +1,45 @@
+/* ====== Testimonial Section
+============================ */
+.testimonial {
+  position: relative;
+  padding: 100px 0 0;
+  margin-bottom: 80px;
+  /* ko hỗ trợ trên opera mini */
+  /* background: linear-gradient(to bottom, #28ABE3 50%, #fff 50%); */
+  background-color: #28abe3;
+}
+
+.testimonial::before {
+  position: absolute;
+  content: '';
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 150px;
+  background-color: #fff;
+}
+
+.testimonial .item i {
+  display: inline-block;
+  margin-bottom: 50px;
+  color: #fff;
+  font-size: 60px;
+}
+
+.testimonial .client-detail {
+  padding-bottom: 30px;
+}
+
+.testimonial .client-detail p {
+  padding: 0 10%;
+  color: #fff;
+  font-size: 17px;
+  font-weight: 200;
+}
+
+.testimonial .client-thumb img {
+  display: inline-block;
+  border-radius: 50%;
+  width: 150px;
+  height: auto;
+}

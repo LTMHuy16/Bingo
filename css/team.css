@@ -1,0 +1,91 @@
+.team {
+  padding: 100px 0;
+  background: #F6F6F6;
+}
+
+.team .team-member {
+  background: #fff;
+}
+
+.team .team-member .member-photo {
+  position: relative;
+  overflow: hidden;
+}
+
+.team .member-photo img {
+  transition: all 0.6s ease;
+}
+
+.team .member-photo:hover img {
+  transform: scale(1.1);
+}
+
+.team .member-photo .marsk {
+  position: absolute;
+  top: auto;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  opacity: 0;
+  padding: 0;
+  height: 80px;
+  background: rgba(40, 171, 227, 0.7);
+  cursor: pointer;
+  transform: translateY(100%);
+  transition: all 0.3s ease;
+}
+
+.team .member-photo:hover .marsk {
+  opacity: 1;
+  transform: translateY(0%);
+}
+
+.team .member-photo .marsk ul {
+  position: relative;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.team .member-photo .marsk ul li {
+  display: inline-block;
+  margin-right: 7px;
+  transform: translateY(0);
+  transition: transform 0.25s ease-in-out;
+}
+.team .member-photo .marsk ul li:hover {
+  transform: translateY(-10px);
+}
+
+.team .member-photo .marsk ul li a {
+  display: block;
+  padding: 5px 6px;
+  font-size: 22px;
+  line-height: 1;
+  border: 1px solid #fff;
+  border-radius: 4px;
+  color: #fff;
+  text-align: center;
+}
+
+.team .member-content {
+  padding: 25px 0;
+}
+
+.team .member-content h3 {
+  font-size: 20px;
+  margin-bottom: 5px;
+  color: #000;
+}
+
+.team .member-content span {
+  font-size: 14px;
+  color: #555;
+}
+
+.team .member-content p {
+  color: #777;
+  margin-top: 10px;
+  padding: 0 15px;
+}
+
+

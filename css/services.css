@@ -1,0 +1,39 @@
+.services {
+  padding: 100px 0 130px;
+}
+
+.services .services-block.color-bg {
+  background: #28ABE3;
+  color: #fff;
+}
+
+.services .services-block .services-icon {
+  margin-bottom: 30px;
+}
+
+.services .services-block .services-icon i {
+  font-size: 75px;
+  color: #28ABE3;
+}
+.services .services-block.color-bg .services-icon i {
+  color: #fff;
+}
+
+.services .services-block h3 {
+  color: #333;
+  font-size: 18px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.services .services-block.color-bg h3 {
+  color: #fff;
+}
+
+.services .services-block p {
+  font-size: 14px;
+  color: #666;
+}
+.services .services-block.color-bg p {
+  color: #fff;
+}
+
